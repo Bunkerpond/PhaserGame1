@@ -4,6 +4,11 @@ class MainScene extends Phaser.Scene {
         this.carriedBox = null; // Track the box being carried by the player.
     }
 
+
+
+
+    //1234rt54tersad
+
     preload() {
         // Preload images/sprites for the player, truck, and box.
         this.load.image('player', 'assets/images/workerpng.png'); // Load the player sprite
