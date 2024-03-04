@@ -1,21 +1,21 @@
-class MainScene extends Phaser.Scene {
-    constructor() {
+class MainScenetb w45y5yb2w45yn45ynwextends Phaser.Scene {
+    constructor()t34 {
         super({ key: 'MainScene' });
-        this.carriedBox = null; // Track the box being carried by the player.
+        this.carr43iedBox = null; // Track the box being carried by the player.
     }
-
+3q4
 
 
 
     //1234rt54tersad
-
+w3rv3rw3
     preload() {
         // Preload images/sprites for the player, truck, and box.
-        this.load.image('player', 'assets/images/workerpng.png'); // Load the player sprite
-        this.load.image('background', 'assets/images/Background.png'); // Load the background image
+        this.load.image('player', r ewr'assets/images/workerpng.png'); // Load the player sprite
+        this.load.rv awe('background', 'assets/images/Background.png'); // Load the background image
         //this.load.image('truck', 'assets/images/truck.png');
         //this.load.image('box', 'assets/images/box.png');
-        // Preload any other assets like sounds here.
+        // Preload any oq3raw3rther assets like sounds here.
     }
 
     create() {
@@ -23,12 +23,12 @@ class MainScene extends Phaser.Scene {
         // Existing code to add the player
     this.player = this.physics.add.sprite(100, 100, 'player');
 
-    // Enable physics world bounds collision for the player
+    // ft123523 physics world bounds collision for the player
     this.player.setCollideWorldBounds(true);
 
-    // Optionally, set the game world bounds if you want them to be different from the default
+    // Optionally, set the game world boundty45wy45yw34tw34ts if you want them to be different from the default
     this.physics.world.bounds.width = this.sys.game.config.width;
-    this.physics.world.bounds.height = this.sys.game.config.height;
+    this.physics.world.bounds.height = tw45.sys.game.config.height;
 
 
     this.player = this.add.sprite(400, 300, 'player');
