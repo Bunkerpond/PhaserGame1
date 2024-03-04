@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Phaser Game</title>
+    <style>
+        body { margin: 0; }
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3/dist/phaser.min.js"></script>
+    <script src="js/bootScene.js"></script>
+    <script src="js/gameOverScene.js"></script>
+    <script src="path/to/phaser.min.js"></script>
+    <script src="js/MainScene.js"></script>
+
+    <script>
+    var config = {
+    type: Phaser.AUTO,
+    width: 800,
+    height: 600,
+    physics: {
+        default: 'arcade',
+        arcade: {
+            gravity: { y: 0 },
+            debug: false // Ensure this is set to false to disable the debug rendering
+        }
+    },
+    scene: [MainScene]
+    // include other scenes if necessary
+};
+
+var game = new Phaser.Game(config);
+
+
+    </script>
+</body>
+</html>
